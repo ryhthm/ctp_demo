@@ -32,8 +32,8 @@ cir:pUserApi->RegisterSpi(&sh);
 		{
 		case 1://直连模式
 		{
-			sh.ReqAuthenticate();
-			WaitForSingleObject(g_hEvent, INFINITE);
+			//sh.ReqAuthenticate();
+			//WaitForSingleObject(g_hEvent, INFINITE);
 			sh.ReqUserLogin();
 			WaitForSingleObject(g_hEvent, INFINITE);
 			break;

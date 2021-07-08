@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/6.3.15_demo/flow
+/6.3.15_demo/config - 副本.ini
