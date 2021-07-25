@@ -30,16 +30,7 @@
     <ClInclude Include="define.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="traderApi.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="main.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="DataCollect.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="traderSpi.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ThostFtdcMdApi.h">
@@ -54,21 +45,36 @@
     <ClInclude Include="ThostFtdcUserApiStruct.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="CustomMdSpi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyTrade.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TickToKlineHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="getconfig.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="traderSpi.cpp">
+    <ClCompile Include="CustomMdSpi.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="traderApi.cpp">
+    <ClCompile Include="CustomTradeSpi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomTradeSpi.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyTrade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TickToKlineHelper.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
